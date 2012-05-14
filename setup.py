@@ -33,5 +33,6 @@ setup(
         'console_scripts': [
              'kartograph = kartograph.cli:main'
         ]
-    }
+    },
+    test_suite='kartograph.tests',
 )
